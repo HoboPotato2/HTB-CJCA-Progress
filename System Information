@@ -1,1 +1,0 @@
-Question 1: Find out the machine hardware name and submit it as the answer. >>> uname -m
