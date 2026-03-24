@@ -1,0 +1,11 @@
+Question 1: What is the name of the config file that has been created after 2020-03-03 and 
+is smaller than 28k but larger than 25k?
+Solution 1: "find / -type f -name *.conf -size +25k -size -28k -newermt 2020-03-03 2>/dev/null" (This looks for: 
+files, with '.conf' in the name, that are greater than 25k, smaller than 28k, creared after 2020-03-03, and sends all
+resposnes that say "permission denied" to /dev/null instead of pasting them in the command line,,, respectively)
+
+Question 2: How many files exist on the system that have the ".bak" extension?
+Solution 2: "find / -type f -name *.bak 2>/dev/null"
+
+Question 3: Submit the full path of the "xxd" binary.
+Solution 3: "find / -type f -name xxd 2>/dev/null"
