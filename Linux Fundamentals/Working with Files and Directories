@@ -1,0 +1,5 @@
+Question 1: What is the name of the last modified file in the "/var/backups" directory?
+Solution 1: "ls -la /var/backups" (look for the one with the most recent date)
+
+Question 2: What is the inode number of the "shadow.bak" file in the "/var/backups" directory?
+Solution 2: "ls -i /var/backups/shadow.bak" (This lists just the index number of "shadow.bak")
