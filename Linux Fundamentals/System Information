@@ -1,0 +1,19 @@
+First, SSH to the HTB target machine.
+
+Question 1: Find out the machine hardware name and submit it as the answer.
+Solution 1: "uname -m" (this yields just the machine's hardware name)
+
+Question 2: What is the path to htb-student's home directory?
+Solution 2: "pwd" (This yields the htb-student's home directory)
+
+Question 3: What is the path to the htb-student's mail?
+Solution 3: "env" (Prints a lot of information, but the answer is found after a little reading.)
+
+Question 4: Which shell is specified for the htb-student user?
+Solution 4: "env" (Prints a lot of information, but the answer is found after a little reading.)
+
+Question 5: Which kernel release is installed on the system? (Format: 1.22.3)
+Solution 5: "uname -r" (This yields the machine's kernel release)
+
+Question 6: What is the name of the network interface that MTU is set to 1500?
+Solution 6: "ifconfig" (look for "MTU 1500")
